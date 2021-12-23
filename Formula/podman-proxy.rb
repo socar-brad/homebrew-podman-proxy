@@ -2,6 +2,9 @@ class PodmanProxy < Formula
   desc ""
   homepage ""
   license ""
+  url "https://github.com/socar-brad/podman-proxy.git",
+      tag:      "v0.0.1",
+      revision: "3ce7abbb8eadb99b7690740c466f1d0830b06f15"
   head "https://github.com/socar-brad/podman-proxy.git", branch: "main"
 
   # depends_on "cmake" => :build
